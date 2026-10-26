@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>音频播放页面</title>
+</head>
+<body>
+    <h2>我的音频</h2>
+    <!-- 这里的 audio.mp3 需要和你的音频文件名完全一致 -->
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        您的浏览器不支持音频播放。
+    </audio>
+</body>
+</html>
